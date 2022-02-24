@@ -1,0 +1,81 @@
+.footer{
+  background-image: url("../images/fox.png"), url("../images/sloy.png");
+  background-repeat: no-repeat;
+  background-position: calc(50% - 1px) calc(50% + 40px),calc(50% - 1px) calc(50% - 55px);
+  background-size: 256px 238px, 1140px 720px;
+  background-color: #162758;
+  padding-top: 50px;
+}
+
+.footer__inner{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer__box{
+  margin: 0 auto; 
+  margin-bottom: 570px;
+}
+
+.footer__link + .footer__link{
+  margin-left: 40px;
+}
+
+.footer__link:hover{
+  opacity: 0.5;
+}
+
+.footer__title{
+  width: 782px;
+  font-size: 35px;
+  line-height: 60px;
+  text-align: center;  
+  margin: 0 auto;
+  color: #FFFFFF;
+  margin-bottom: 100px;
+}
+
+.footer__wrapper{
+  width: 700px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 25px 56px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 50px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.footer__subtitle{
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 25px;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.footer__text{
+  font-size: 25px;
+  line-height: 30px;  
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 5px;
+}
+
+.info{
+  padding: 40px 0;
+  background: #0D1428;
+}
+
+.info__subtext{
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+  opacity: 0.4;
+}

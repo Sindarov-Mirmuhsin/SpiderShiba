@@ -1,0 +1,56 @@
+.main{
+  background-image: url("../images/planeta.png");
+  background-repeat: no-repeat;
+  background-position: calc(50% + 1px);
+  height: 820px;
+}
+
+.main__inner{
+  padding-top: 100px;
+}
+
+
+.main__box{
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.main__title{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 42px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.main__img{
+  width: 100%;
+  max-width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  margin-left: 198px;
+}
+
+.main__link{
+  position: absolute;
+  top: 405px;
+  left: 156px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  color: #FFFFFF; 
+  text-decoration: none;
+  padding: 10px 45px 15px 45px;
+  background: #E11D2E;
+  border-radius: 10px;
+}
+
+.main__link:hover{
+  opacity: 0.6;
+}

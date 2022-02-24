@@ -1,0 +1,111 @@
+.invest{
+  background: #30298C;
+  padding: 150px 0;
+}
+
+.invest__list{
+  display: flex;
+}
+
+.invest__item{
+  position: relative;
+  width: 100%;
+  max-width: 465px;
+  list-style-type: none;
+  margin-left: 100px;
+}
+
+.invest__title{
+  font-size: 50px;
+  line-height: 60px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+
+.invest__info{
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  margin-bottom: 50px;
+}
+
+.invest__link{
+  color: #FFFFFF;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 25px 30px;
+  background: #E11D2E;
+  border-radius: 10px;
+}
+
+.invest__link:hover{
+  opacity: 0.6;
+}
+
+.invest__item--mdf{
+  width: 100%;
+  max-width: 445px;
+  margin-right: 190px;
+  background-image: url("../images/vector.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.massive{
+  margin-bottom: 50px;
+}
+
+.massive::before{
+  content: "";
+  position: absolute;
+  display: block;
+  z-index: +1;
+  width: 120px;
+  height: 120px;
+  left: -140px;
+  top: 10px;
+  background-image: url("../images/img7.png");
+  background-repeat: no-repeat;
+  background-position: 10px 10px;
+  padding: 10px;
+}
+
+.massive::after{
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 120px;
+  left: -140px;
+  top: 185px;
+  background-image: url("../images/img8.png");
+  background-repeat: no-repeat;
+  background-position: -15px 10px;
+  padding: 10px;
+}
+
+.massive__title{
+  color: #FFFFFF;
+}
+
+.massive__text{
+  font-size: 16px;
+  line-height: 25px;
+  color: #FFFFFF;
+  opacity: 0.8;
+}
+
+.memecoin__title{
+  color: #FFFFFF;
+}
+
+.memecoin__text{
+  font-size: 16px;
+  line-height: 25px;
+  color: #FFFFFF;
+  opacity: 0.8;
+}

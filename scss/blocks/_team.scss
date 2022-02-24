@@ -1,0 +1,94 @@
+.team{
+  background: #162344;
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+
+.team__subtitle{
+  font-size: 50px;
+  line-height: 60px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.team__list{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  padding: 0 50px;
+}
+
+.team__item{
+  list-style-type: none;
+}
+
+.team__img{
+  width: 100%;
+  max-width: 270px;
+}
+
+.team__title{
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.team__text{
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #FFFFFF;
+  opacity: 0.6;
+}
+
+.box__list{
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+}
+
+.box__item{
+  list-style-type: none;
+}
+
+.box__item + .box__item{
+  margin-left: 15px;
+}
+
+.box__line{
+  display: block;
+  background: #A2A7B4;
+  width: 10px;
+  height: 10px;
+}
+
+.box__line--mdf{
+  display: block;
+  background: #FF0000;
+  width: 10px;
+  height: 10px;
+}
+
+.investors{
+  padding: 0 50px;
+}
+
+.investors__title{
+  font-size: 45px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.investors__list{
+  display: flex;
+  padding-left: 0;
+}
+
+.investors__item{
+  list-style-type: none;
+}
+
+.investors__item + .investors__item{
+  margin-left: 20px;
+}
